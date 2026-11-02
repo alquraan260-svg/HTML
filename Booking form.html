@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Booking Form - Homework</title>
+</head>
+<body>
+
+<h1>Booking Form</h1>
+
+<form action="#" method="post">
+
+    <p>
+        <label for="fullname">Full name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+    </p>
+
+    <p>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+    </p>
+
+    <p>
+        <label for="phone">Phone number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="07XXXXXXXX" required>
+    </p>
+
+    <p>
+        <label for="destination">Destination:</label><br>
+        <select id="destination" name="destination" required>
+            <option value="">-- Select destination --</option>
+            <option value="paris">Paris</option>
+            <option value="dubai">Dubai</option>
+            <option value="istanbul">Istanbul</option>
+            <option value="london">London</option>
+            <option value="tokyo">Tokyo</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="date">Travel date:</label><br>
+        <input type="date" id="date" name="date" required>
+    </p>
+
+    <p>
+        <label for="travelers">Number of travelers:</label><br>
+        <select id="travelers" name="travelers" required>
+            <option value="">-- Select --</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5+">5 or more</option>
+        </select>
+    </p>
+
+    <!-- Homework: radio buttons for travel type -->
+    <p>
+        Travel type:<br>
+        <input type="radio" id="leisure" name="traveltype" value="leisure" required>
+        <label for="leisure">Leisure</label>
+
+        <input type="radio" id="business" name="traveltype" value="business">
+        <label for="business">Business</label>
+
+        <input type="radio" id="family" name="traveltype" value="family">
+        <label for="family">Family</label>
+    </p>
+
+    <p>
+        <label for="notes">Additional notes:</label><br>
+        <textarea id="notes" name="notes" rows="5" cols="30" placeholder="Any special requests?"></textarea>
+    </p>
+
+    <!-- Homework: checkbox for accepting terms -->
+    <p>
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the terms and conditions</label>
+    </p>
+
+    <p>
+        <button type="submit">SUBMIT</button>
+    </p>
+
+</form>
+
+</body>
+</html>
