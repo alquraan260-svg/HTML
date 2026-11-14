@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odai.Cv | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="odai-cv.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="wrap header__row">
+    <a href="#home" class="header__logo">Odai.<span>Cv</span></a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger" aria-label="Menu"><span></span><span></span><span></span></label>
+
+    <nav class="header__nav">
+      <a href="#personal">Personal info</a>
+      <a href="#experience">Experience</a>
+      <a href="#clients">Clients</a>
+      <a href="#" class="dl" download>Download CV
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 7v9M8 12.500l4 4 4-4"/></svg>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap hero__grid">
+    <div class="hero__photo">
+      <div class="ph ph--hero"><img src="images/hero.jpg" alt="" onerror="this.remove()"></div>
+    </div>
+
+    <div class="hero__text">
+      <h2 class="hi">Hi, I'm Odai</h2>
+      <h1>Experienced web designer and developer.</h1>
+      <p class="roles">Website Designer / Developer</p>
+      <p class="lead">Website design and development is an approach that helps your business build a strong online presence and attract more customers. With my expertise in the latest web technologies and design methods, I would be happy to help you create a professional website that brings your ideas to life.</p>
+      <p class="open">I'm open for new job opportunities <b>-</b> if you would like to discuss your project, I'm available at <a href="mailto:odai@mail.com">odai@mail.com</a> or <a href="tel:+962 770000000">+962 770000000</a></p>
+      <ul class="social">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--soft" id="personal">
+  <div class="wrap wrap--md">
+    <h2 class="sec__title">Personal info</h2>
+    <p class="sec__text">I believe that a well-designed website combined with smooth functionality and a great user experience can deliver excellent results and help businesses achieve their goals. I manage the entire process of web design and development, from planning and creating layouts to building fully responsive and interactive websites.</p>
+    <p class="sec__text">Website design, front-end development, back-end development, responsive layouts, website optimization, and maintenance – these are just some of the services I offer.</p>
+
+    <div class="banner"><img src="images/banner.jpg" alt="" onerror="this.remove()"></div>
+
+    <div class="about">
+      <div class="about__text">
+        <h3>I really love web design and development and always treat each project of my clients as my own.</h3>
+        <p>I started my journey in web development as a student, learning how to turn creative ideas into functional and attractive websites. It was my first step toward building a professional career in technology. Today, I'm a web designer and developer, passionate about creating modern digital experiences, and I'm proud of the following <span class="coral">main skills</span>:</p>
+        <ul class="list list--sq">
+          <li>Web Design & UI/UX</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>Front-End Development</li>
+          <li>Back-End Development</li>
+          <li>Website Optimization and Maintenance</li>
+        </ul>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <i class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4M2 13h20"/></svg></i>
+          <b>50+ </b><span>Websites Designed & Developed</span>
+        </div>
+        <div class="stat">
+          <i class="ico"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M10 5h4M11 18h2"/></svg></i>
+          <b>100%</b><span>Responsive Design</span>
+        </div>
+        <div class="stat">
+          <i class="ico"><svg viewBox="0 0 24 24"><path d="M3 7h7l2 2h9v10H3z"/><path d="M3 9h18"/><path d="m9 14 2 2 4-4"/></svg></i>
+          <b>16</b><span>Completed Projects</span>
+        </div>
+        <div class="stat">
+          <i class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/></svg></i>
+          <b>3+ </b><span>Years of Learning & Experience</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap wrap--md soft">
+    <h2 class="sec__title">Software I use</h2>
+    <p class="sec__text">Here's a list of the software and tools I use in my web design and development work:</p>
+
+    <div class="carousel" data-carousel>
+      <button class="arrow arrow--prev" aria-label="Previous">&#8249;</button>
+      <div class="track">
+        <article class="card card--coral">
+          <i class="logo-tile">F</i>
+          <h4>Figma</h4><em class="level">Middle</em>
+          <p>I use Figma to create website layouts, design user interfaces, build prototypes, and improve the overall user experience.</p>
+        </article>
+        <article class="card card--yellow">
+          <i class="logo-tile">VC</i>
+          <h4>Visual Studio Code</h4><em class="level">Senior</em>
+          <p>I use Visual Studio Code to write, edit, and organize code, develop responsive websites, and work with HTML, CSS, and JavaScript.</p>
+        </article>
+        <article class="card card--slate">
+          <i class="logo-tile">GH</i>
+          <h4>Git & GitHub</h4><em class="level">Middle</em>
+          <p>I use Git and GitHub to manage code versions, track project changes, collaborate on development projects, and maintain organized code repositories.</p>
+        </article>
+        <article class="card card--coral">
+          <i class="logo-tile">J</i>
+          <h4>JIRA</h4><em class="level">Senior</em>
+          <p>I use JIRA to organize development tasks, plan sprints, track project progress, and manage website development workflows.</p>
+        </article>
+      </div>
+      <button class="arrow arrow--next" aria-label="Next">&#8250;</button>
+      <div class="dots"></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="experience">
+  <div class="wrap wrap--md">
+    <h2 class="sec__title">Work Experience</h2>
+    <p class="sec__text">To get a complete list of the companies I've worked with, download my resume.</p>
+
+    <article class="job">
+      <div class="job__co">
+        <i class="logo-tile logo-tile--orange">S</i>
+        <h4>Web Development Company</h4>
+        <small>Jan 2024 - Present</small>
+        <strong>Web Designer & Developer</strong>
+      </div>
+      <div class="job__col">
+        <h5>Responsibility:</h5>
+        <ul class="list"><li>Design and develop modern websites</li><li>Build responsive and user-friendly interfaces</li><li>Develop front-end and back-end functionality</li></ul>
+        <h5>Achievements:</h5>
+        <ul class="list"><li>Designed and developed responsive web pages</li><li>Improved website performance and user experience</li></ul>
+        <h5>Project Management System:</h5>
+        <ul class="list"><li>Git, GitHub</li><li>Visual Studio Code</li><li>Figma</li><li>HTML, CSS, JavaScript</li></ul>
+      </div>
+      <div class="job__col">
+        <h5>My duties included:</h5>
+        <ul class="list">
+          <li>Designing website layouts and user interfaces;</li>
+          <li>Developing responsive web pages;</li>
+          <li>Writing clean and maintainable code;</li>
+          <li>Implementing interactive website features;</li>
+          <li>Testing and debugging websites;</li>
+          <li>Optimizing website performance;</li>
+          <li>Maintaining and updating existing websites.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="job__co">
+        <i class="logo-tile logo-tile--green">W</i>
+        <h4>Web Development</h4>
+        <small>Apr 2023 - Dec 2024</small>
+        <strong>Full-Stack Web Developer</strong>
+      </div>
+      <div class="job__col">
+        <h5>Responsibility:</h5>
+        <ul class="list"><li>Design and develop responsive websites</li><li>Build and maintain web applications</li><li>Ensure website functionality and performance</li></ul>
+        <h5>Achievements:</h5>
+        <ul class="list"><li>Developed user-friendly and responsive web interfaces</li><li>Improved website performance and usability</li></ul>
+        <h5>Project Management & Development Tools:</h5>
+        <ul class="list"><li>Git, GitHub</li><li>Visual Studio Code</li><li>Figma</li><li>HTML, CSS, JavaScript</li></ul>
+      </div>
+      <div class="job__col">
+        <h5>My duties included:</h5>
+        <ul class="list">
+          <li>Designing and developing websites;</li>
+          <li>building responsive user interfaces;</li>
+          <li>writing clean and organized code;</li>
+          <li>implementing interactive website features;</li>
+          <li>testing and debugging web applications;</li>
+          <li>optimizing website speed and performance;</li>
+          <li>maintaining and updating existing projects.</li>
+
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="sec sec--edu" id="education">
+  <div class="deco deco--yellow"></div>
+  <div class="wrap wrap--sm">
+    <h2 class="sec__title">Education</h2>
+    <p class="sec__text">I constantly expand my knowledge and improve my skills through continuous learning, professional courses, and hands-on projects in web design and development. I focus on learning modern web technologies, UI/UX design, and the latest development practices to build high-quality websites and digital experiences.</p>
+
+    <div class="tl">
+      <div class="tl__item tl__item--left">
+        <div class="tl__body">
+          <h4>LinkedIn Learning</h4><em class="level level--up">Web Development</em>
+          <p><b>With an emphasis on:</b> HTML5, CSS3, JavaScript, responsive web design, front-end development, website accessibility, and modern web standards.</p>
+          <small>Jan 2024 - May 2024</small>
+        </div>
+        <i class="tl__dot" style="background:#0A66A0">in</i>
+      </div>
+      <div class="tl__item tl__item--right">
+        <i class="tl__dot" style="background:#2F74C0">C</i>
+        <div class="tl__body">
+          <h4>Coursera</h4><em class="level level--up">UI/UX Design</em>
+          <p><b>With an emphasis on</b>  user research, wireframing, prototyping, visual design, interaction design, usability testing, and user-centered design principles.</p>
+          <small>Aug 2023 - Dec 2023</small>
+        </div>
+      </div>
+      <div class="tl__item tl__item--left">
+        <div class="tl__body">
+          <h4>Udemy</h4><em class="level level--up">Front-End Development</em>
+          <p><b>With an emphasis on</b> HTML, CSS, JavaScript, Bootstrap, React, responsive layouts, interactive components, and website optimization.</p>
+          <small>Jan 2023 - Jul 2023</small>
+        </div>
+        <i class="tl__dot" style="background:#F6C300;color:#111">U</i>
+      </div>
+      <div class="tl__item tl__item--right">
+        <i class="tl__dot tl__dot--txt" style="background:#C4474B">MICROSOFT</i>
+        <div class="tl__body">
+          <h4>Microsoft</h4><em class="level level--up">Back-End Web Development</em>
+          <p><b>With an emphasis on</b>  C#, ASP.NET Core, RESTful APIs, database management, SQL Server, Entity Framework Core, and full-stack web development.</p>
+          <small>Sep 2022 - Dec 2022</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--soft sec--clients" id="clients">
+  <div class="deco deco--green"></div>
+  <div class="wrap wrap--sm">
+    <h2 class="sec__title">Testimonials</h2>
+    <p class="sec__text">What my clients are saying about me and my work.</p>
+
+    <div class="carousel carousel--one" data-carousel>
+      <button class="arrow arrow--prev" aria-label="Previous">&#8249;</button>
+      <div class="track">
+        <article class="quote">
+          <i class="avatar"><img src="images/client1.jpg" alt="" onerror="this.remove()"></i>
+          <div>
+            <p>Working with this developer was an excellent experience. They always go the extra mile to deliver high-quality websites, paying attention to every detail. They don't just build websites; they create user-friendly experiences, suggest improvements, and turn ideas into modern, functional, and responsive digital solutions.</p>
+            <h4>Daniel Standford</h4><small>CEO at TopCars Magazine</small>
+          </div>
+        </article>
+        <article class="quote">
+          <i class="avatar"></i>
+          <div>
+            <p>Working with Kate is a pleasure. Every article arrives on time, polished and ready to publish, and our organic traffic has grown steadily since she joined the project.</p>
+            <h4>Emily Carter</h4><small>Marketing Director at Brightly</small>
+          </div>
+        </article>
+        <article class="quote">
+          <i class="avatar"></i>
+          <div>
+            <p>She built our content strategy from scratch and trained the whole team. I can recommend Kate to anyone who needs a real professional.</p>
+            <h4>Michael Reed</h4><small>Founder at StartupHub</small>
+          </div>
+        </article>
+      </div>
+      <button class="arrow arrow--next" aria-label="Next">&#8250;</button>
+      <div class="dots"></div>
+    </div>
+
+    <h2 class="sec__title sec__title--gap">Features clients</h2>
+    <p class="sec__text">Over the years, I've had the opportunity to work with amazing businesses and organizations, helping them build their online presence through modern web design and development solutions.</p>
+
+    <div class="carousel" data-carousel>
+      <div class="track">
+        <article class="card card--yellow card--client">
+          <div class="client-logo">Amazon Web Services</div>
+          <h4>Amazon Web Services</h4>
+          <p>Developing responsive web interfaces and creating user-friendly digital experiences for web-based services.</p>
+        </article>
+        <article class="card card--coral card--client">
+          <div class="client-logo">99 designs</div>
+          <h4>99 designs</h4>
+          <p>Designing and developing landing pages, portfolio websites, and interactive web experiences.</p>
+        </article>
+        <article class="card card--slate card--client">
+          <div class="client-logo">Facebook</div>
+          <h4>Facebook</h4>
+          <p>Contributing to the development of web applications and implementing modern front-end solutions for digital projects.</p>
+        </article>
+      </div>
+      <div class="dots"></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec contact" id="contact">
+  <div class="wrap wrap--sm contact__grid">
+    <div>
+      <h2 class="contact__title">Need a skilled developer? Contact me and tell about your project!</h2>
+      <p class="sec__text">Say Hello at <a class="ul" href="mailto:odai@mail.com">odai@mail.com</a> or <a class="ul" href="tel:+9627700000000">+962 77000 000 00</a></p>
+    </div>
+    <div class="contact__list">
+      <h5>Bring me in for:</h5>
+      <ul class="list list--dot">
+        <li>Website Design & Development</li>
+        <li>Front-End Development</li>
+        <li>Back-End Development</li>
+        <li>Responsive Web Design</li>
+        <li>UI/UX Design</li>
+        <li>Website Optimization & Maintenance</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap wrap--sm footer__row">
+    <a href="#home" class="footer__logo">Odai.<span>Cv</span></a>
+    <nav class="footer__nav">
+      <a href="#personal">Personal Info</a>
+      <a href="#experience">Experience</a>
+      <a href="#clients">Clients</a>
+      <span class="soc">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Twitter">t</a>
+        <a href="#" aria-label="Email">&#9993;</a>
+      </span>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
