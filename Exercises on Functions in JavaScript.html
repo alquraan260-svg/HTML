@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercises on Functions in JavaScript</title>
+  
+</head>
+<body>
+
+  <h1>Function Exercises</h1>
+
+  <h2>Task 1 – double1, double2, double3</h2>
+  <pre id="task1"></pre>
+
+  <h2>Task 2 – sameLength</h2>
+  <pre id="task2"></pre>
+
+  <h2>Task 3 – randomNumber</h2>
+  <pre id="task3"></pre>
+
+  <script>
+    
+    function double1(x) {
+      return 2 * x;
+    }
+
+   
+    function double2(x) {
+      return 2 * x;
+    }
+
+  
+    function double3(x) {
+      return 2 * x;
+    }
+
+    
+    function sameLength(a, b) {
+      return a.length === b.length;
+    }
+
+    
+    function randomNumber() {
+      return Math.random();
+    }
+
+    
+    document.getElementById("task1").textContent =
+      "double1(5) = " + double1(5) + "\n" +
+      "double2(5) = " + double2(5) + "\n" +
+      "double3(5) = " + double3(5);
+
+    document.getElementById("task2").textContent =
+      'sameLength("tree", "clue") = ' + sameLength("tree", "clue") + "\n" +
+      'sameLength("tree", "car")  = ' + sameLength("tree", "car");
+
+    document.getElementById("task3").textContent =
+      "randomNumber() = " + randomNumber() + "\n" +
+      "randomNumber() = " + randomNumber();
+  </script>
+
+</body>
+</html>
